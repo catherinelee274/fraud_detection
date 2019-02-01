@@ -17,6 +17,9 @@
 *_LOCAL_*.txt
 *_REMOTE_*.txt
 
+### VS Code ##
+.vscode/
+
 ### Linux ###
 *~
 

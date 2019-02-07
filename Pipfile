@@ -17,6 +17,8 @@ jupyter = "*"
 flask = "*"
 tensorflow = "*"
 scikit-learn = "*"
+keras = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.6"

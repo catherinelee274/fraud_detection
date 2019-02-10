@@ -4,7 +4,8 @@ By Kyle O'Brien, Catherine Lee, Amit Saxena
 
 Predicting whether a user will download an app after clicking a mobile app advertisement.  
 
-`docker build -t fraud_detection .` 
+`docker build -t fraud_detection .`
+
 `docker run -p 8888:8080 fraud_detection `
 
 Links:

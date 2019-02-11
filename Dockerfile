@@ -25,3 +25,4 @@ EXPOSE 8888
 
 # Start the notebook.
 CMD [ "pipenv", "run", "jupyter", "notebook" , "main.ipynb", "--allow-root", "--ip=0.0.0.0"]
+

@@ -6,7 +6,7 @@ Predicting whether a user will download an app after clicking a mobile app adver
 
 `docker build -t fraud_detection .`
 
-`docker run -p 8888:8080 fraud_detection `
+ docker run -p 8080:8888 -v $(pwd):/fraud_detection fraud_detection
 
 Links:
 [Google Drive](https://drive.google.com/drive/u/0/folders/0AFnlAysa3MTEUk9PVA)

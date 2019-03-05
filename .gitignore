@@ -9,6 +9,7 @@
 
 # ML Data
 ./talkingdata-adtracking-fraud-detection/
+data/
 
 # Created by git when using merge tools for conflicts
 *.BACKUP.*

@@ -17,6 +17,7 @@ jupyter = "*"
 flask = "*"
 tensorflow = "*"
 scikit-learn = "*"
+xgboost = "*"
 
 [requires]
 python_version = "3.6"

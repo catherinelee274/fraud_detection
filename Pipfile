@@ -19,6 +19,8 @@ tensorflow = "*"
 scikit-learn = "*"
 keras = "*"
 seaborn = "*"
+graphviz = "*"
+xgboost = "*"
 
 [requires]
 python_version = "3.6"

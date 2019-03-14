@@ -14,7 +14,7 @@ ENV LC_ALL=C.UTF-8
 ENV LANG=C.UTF-8
 
 # Installs Python 3.6 and Pip.
-RUN apt-get update && apt-get install -y --no-install-recommends python3-pip
+RUN apt-get update && apt-get install -y --no-install-recommends python3-pip libgomp1 build-essential graphviz
 
 # Install python packages defined in the Pipefile.
 RUN pip3 install pipenv

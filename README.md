@@ -25,7 +25,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 - **Dockerfile**: Configuration and setup of the container that the notebook will be running in.
 - **Pipfile**: Configuration for the project Pipenv virtual environment. Used to install specific project dependencies and version of Python.
 - **Pipfile.lock**: Contains meta-data for the Pipenv virtual environment.
-- **__init__.py**: Make the project root a Python module.
+- **_\_init__.py**: Make the project root a Python module.
 
 ### Data
 - **data/**: Directory with all original and engineered training data

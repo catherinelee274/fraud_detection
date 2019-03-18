@@ -314,4 +314,4 @@ $RECYCLE.BIN/
 .ignore/
 /data/
 /output/
-
+*.odt

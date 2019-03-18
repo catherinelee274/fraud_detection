@@ -2,11 +2,11 @@
 
 ## Summary
 
-Fraudulent mobile ad clicks have become an increasingly difficult problem for advertisers as the word experiences a proliferation of smart mobile devices. Advertisers pay affiliate website when their users click on one of their mobile ads.
+Fraudulent mobile ad clicks have become an increasingly difficult problem for advertisers as the world experiences a proliferation of smart mobile devices. Advertisers pay affiliate website when their users click on one of their mobile ads.
 
 This compensation model has incentivized bad actors to generate fraudulent clicks on mobile ads in the hope of conning advertisers into paying them a commission. Advertisers must compensate affiliates even when these clicks do not result in a download of the advertised application.
 
-In response to this problem, we've developed a machine learning model that can predict whether a user will download an app after clicking a mobile advertisement. Training our model on a dataset of over 100,000 mobile advertisement clicks spanning three days, we were able to achieve 83% accuracy using XGBoost.
+In response to this problem, we've developed a machine learning model that can predict whether a user will download an app after clicking a mobile advertisement. Training our model on a dataset of around 100,000 mobile advertisement clicks spanning three days, we were able to achieve 83% accuracy using XGBoost.
 
 This model can be used by advertisers to segregate fraudulent clicks from genuine ones. This distinction saves advertisers significant money and thwarts bad actors.
 
@@ -19,17 +19,22 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 
 ### Source Code
 
-- **main.ipynb**: The Jupyter Notebook where the source code for the model is written and executed.
-- **equalizer.py**: The script that parses the original 183 million training CSV file and returns an equalized CSV of around 100 thousand records.
-- **Dockerfile**: Configures and configuration and setup of the container that the notebook will be running in.
+- **main.ipynb**: The Jupyter Notebook where the source code for our models is written and executed.
+- **eda.py**: The Jupyter Notebook for exploratory data analysis on our data sets.
+- **equalizer.py**: The script that parses the original 183 million training set and returns an equalized and downsized CSV of training data.
+- **Dockerfile**: Configuration and setup of the container that the notebook will be running in.
 - **Pipfile**: Configuration for the project Pipenv virtual environment. Used to install specific project dependencies and version of Python.
 - **Pipfile.lock**: Contains meta-data for the Pipenv virtual environment.
 - **__init__.py**: Make the project root a Python module.
 
 ### Data
-
-- **data/equalized_train.csv**: The downsized training data for our model.
-- **data/train.csv**: The full unequalized CSV file.
+- **data/**: Directory with all original and engineered training data
+- **data/train.csv**: 184,903,890 rows of the original training data provided by Kaggle.
+- **data/train_sample.csv**: 100,000 randomly-selected rows of training data provided by Kaggle
+- **data/equalized_train.csv**: 91,473 rows of equalized and randomly selected training data.
+- **data/test.csv**: 18,790,469 rows of test data provided by Kaggle to evaluate our models with.
+- **output/**: Directory with prediction files
+- **output/prediction_*model*_*acc*.csv**: file pattern for the predictions and accuracy of the best models (dtc, knn, randomforest, and xgboost)  
 
 ### Utilities
 
@@ -41,7 +46,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 
 ### Option 1 (Recommended): Running the Jupyter Notebook via Docker
 
-This project has multiple dependencies and only supports Python 3.6+. Since each of us work on different operation systems, we decided to run the project inside a Docker container along with Pipenv. This allows our project to run the same and automate installation regardless of the host OS. [An up to date installation of Docker is required to complete the following steps](https://www.docker.com/get-started).
+This project has multiple dependencies and only supports Python 3.6. Since each of us work on different operation systems, we decided to run the project inside a Docker container along with Pipenv. This allows our project to run the same and automate installation regardless of the host OS. [An up to date installation of Docker is required to complete the following steps](https://www.docker.com/get-started).
 
 Step 1: Build the Docker Image:
 
@@ -63,6 +68,6 @@ You can run the project notebook directly by running `jupyter notebook main.ipyn
 
 ## Links
 
-[Google Drive](https://drive.google.com/drive/u/0/folders/0AFnlAysa3MTEUk9PVA)\
+[Google Drive](https://drive.google.com/drive/u/0/folders/0AFnlAysa3MTEUk9PVA) *(only viewable by team members)*\
 [Kaggle Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection)
 

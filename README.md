@@ -2,7 +2,7 @@
 
 ## Summary
 
-Fraudulent mobile ad clicks have become an increasingly difficult problem for advertisers as the world experiences a proliferation of smart mobile devices. Advertisers pay affiliate website when their users click on one of their mobile ads.
+Fraudulent mobile ad clicks have become an increasingly difficult problem for advertisers as the world experiences a proliferation of smart mobile devices. Advertisers pay affiliate websites when their users click on one of their mobile ads.
 
 This compensation model has incentivized bad actors to generate fraudulent clicks on mobile ads in the hope of conning advertisers into paying them a commission. Advertisers must compensate affiliates even when these clicks do not result in a download of the advertised application.
 
@@ -68,6 +68,6 @@ You can run the project notebook directly by running `jupyter notebook main.ipyn
 
 ## Links
 
-[Google Drive](https://drive.google.com/drive/u/0/folders/0AFnlAysa3MTEUk9PVA) *(only viewable by team members)*\
+[Google Drive](https://drive.google.com/drive/u/0/folders/0AFnlAysa3MTEUk9PVA) *(only viewable by team members, but project submisison contains all relevant files)*\
 [Kaggle Challenge](https://www.kaggle.com/c/talkingdata-adtracking-fraud-detection)
 

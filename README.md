@@ -21,7 +21,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 
 - **main.ipynb**: The Jupyter Notebook where the source code for our models is written and executed.
 - **eda.py**: The Jupyter Notebook for exploratory data analysis on our data sets.
-- **equalizer.py**: The script that parses the original 183 million training set and returns an equalized and downsized CSV of training data.
+- **equalizer.py**: The script that parses the original 184 million training set and returns an equalized and downsized CSV of training data.
 - **Dockerfile**: Configuration and setup of the container that the notebook will be running in.
 - **Pipfile**: Configuration for the project Pipenv virtual environment. Used to install specific project dependencies and version of Python.
 - **Pipfile.lock**: Contains meta-data for the Pipenv virtual environment.

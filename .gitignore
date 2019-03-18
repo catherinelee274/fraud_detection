@@ -312,6 +312,5 @@ $RECYCLE.BIN/
 
 # custom App paths
 .ignore/
-/data/
 /output/
 

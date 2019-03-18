@@ -60,7 +60,7 @@ Step 3: Open the Jupyter Notebook in Your Browser
 
 Once the Docker container is running, you can go to `http://localhost:8080` to view the notebook. When prompted, enter the password/token found in the output of your running Docker container.
 
-![alt text](./assets\token-readme-image.png "The Notebook Token")
+![The Notebook Token](./assets/token-readme-image.png)
 
 ### Option 2: Running the Jupyter Notebook Directly
 

@@ -9,5 +9,7 @@ src=('*.ipynb' '*.py')
 
 docs=('README.md' 'CMPS_144_FINAL_PAPER.pdf')
 
+ignore=('data/train.csv')
+
 EVERYTHING="${ops[@]} ${data[@]} ${src[@]} ${docs[@]}"
-zip -r -u -1 -9 submission/project.zip $EVERYTHING
+zip -r -u -1 -9 submission/project.zip $EVERYTHING -x ${ignore[@]}

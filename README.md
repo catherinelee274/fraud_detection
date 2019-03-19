@@ -29,7 +29,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 
 ### Data
 - **data/**: Directory with all original and engineered training data
-- **data/train.csv**: 184,903,890 rows of the original training data provided by Kaggle.
+- **[data/train.csv](https://drive.google.com/open?id=1J6iPdUNfAifvZILUGh4FoyPG-mfKDbyN)**: 184,903,890 rows of the original training data provided by Kaggle. (_this is omitted from the submission because of the 8 GB file size, please download from google drive link_)
 - **data/train_sample.csv**: 100,000 randomly-selected rows of training data provided by Kaggle
 - **data/equalized_train.csv**: 91,473 rows of equalized and randomly selected training data.
 - **data/test.csv**: 18,790,469 rows of test data provided by Kaggle to evaluate our models with.

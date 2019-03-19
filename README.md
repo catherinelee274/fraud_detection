@@ -41,6 +41,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 - **.gitignore**: Includes file patterns not to be included in Git.
 - **.dockerignore**: Includes file patterns not to be added to the Docker image.
 - **README.md**: Project description and direction on how to run the model.
+- **CMPS_144_FINAL_PAPER.pdf**: Final Project Report
 
 ## Running this Model
 

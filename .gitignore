@@ -315,3 +315,4 @@ $RECYCLE.BIN/
 /data/
 /output/
 *.odt
+/latex_tmp/

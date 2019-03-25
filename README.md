@@ -17,7 +17,7 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 
 ## Poster
 
-![Poster](assets/poster.jpg)
+<img src="assets/poster.jpg" width = "500">
 
 ## Paper
 

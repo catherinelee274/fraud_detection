@@ -15,6 +15,14 @@ This model can be used by advertisers to segregate fraudulent clicks from genuin
 - [Amit Saxena](https://www.linkedin.com/in/amitsa1/)
 - [Kyle O'Brien](https://www.linkedin.com/in/kyle1668/)
 
+## Poster
+
+![Poster](assets/poster.jpg)
+
+## Paper
+
+<img src="assets/page1.jpg" width = "350"> <img src="assets/page3.jpg" width = "350">
+
 ## Project Structure
 
 ### Source Code
